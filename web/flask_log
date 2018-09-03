@@ -1,0 +1,23 @@
+Usage: python -m flask run [OPTIONS]
+
+Error: The file/path provided (main.py) does not appear to exist.  Please verify the path is correct.  If app is not on PYTHONPATH, ensure the extension is .py
+Usage: python -m flask run [OPTIONS]
+
+Error: The file/path provided (main.py) does not appear to exist.  Please verify the path is correct.  If app is not on PYTHONPATH, ensure the extension is .py
+Usage: python -m flask run [OPTIONS]
+
+Error: The file/path provided (main.py) does not appear to exist.  Please verify the path is correct.  If app is not on PYTHONPATH, ensure the extension is .py
+Usage: python -m flask run [OPTIONS]
+
+Error: The file/path provided (main.py) does not appear to exist.  Please verify the path is correct.  If app is not on PYTHONPATH, ensure the extension is .py
+Usage: python -m flask run [OPTIONS]
+
+Error: The file/path provided (main.py) does not appear to exist.  Please verify the path is correct.  If app is not on PYTHONPATH, ensure the extension is .py
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+192.168.1.74 - - [03/Sep/2018 08:46:07] "GET / HTTP/1.1" 200 -
+192.168.1.74 - - [03/Sep/2018 08:46:18] "GET / HTTP/1.1" 200 -
+192.168.1.74 - - [03/Sep/2018 08:46:19] "GET / HTTP/1.1" 200 -
+192.168.1.74 - - [03/Sep/2018 08:46:20] "GET / HTTP/1.1" 200 -
+192.168.1.74 - - [03/Sep/2018 08:46:20] "GET / HTTP/1.1" 200 -
+192.168.1.74 - - [03/Sep/2018 08:46:21] "GET / HTTP/1.1" 200 -
