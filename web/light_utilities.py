@@ -127,7 +127,7 @@ def initialize_strip():
     return strip
 
 def logarithmic_intensity(x):
-    return 255 / (np.exp(1.0) - 1.0) * (np.exp(x) - 1.0)
+    return 255 * (2.^(10 * x) - 1) / (2.^10 - 1)
 
 def lights_on(strip, temp, brightness):
     rgb = plancksLaw(temp)
@@ -174,9 +174,9 @@ if __name__ == '__main__':
             intensity = 0.5
         if t != 0:
             rgb = plancksLaw(t)
-            red =   int(rgb[0] * 255 / (np.exp(1.0) - 1.0) * (np.exp(intensity) - 1.0)) 
-            green = int(rgb[1] * 255 / (np.exp(1.0) - 1.0) * (np.exp(intensity) - 1.0)) 
-            blue =  int(rgb[2] * 255 / (np.exp(1.0) - 1.0) * (np.exp(intensity) - 1.0)) 
+            red =   int(rgb[0] * logarithmic_intensity(intensity))
+            green = int(rgb[1] * logarithmic_intensity(intensity))
+            blue =  int(rgb[2] * logarathmic_intensity(intensity))
             print red
             print green
             print blue
