@@ -127,7 +127,7 @@ def initialize_strip():
     return strip
 
 def logarithmic_intensity(x):
-    return 255 * (2.**(7 * x) - 1) / (2.**7 - 1)
+    return 255 * (2.**(5 * x) - 1) / (2.**5 - 1)
 
 def lights_on(strip, temp, brightness):
     rgb = plancksLaw(temp)
