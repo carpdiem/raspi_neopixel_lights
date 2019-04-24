@@ -177,9 +177,9 @@ if __name__ == '__main__':
             red =   int(rgb[0] * logarithmic_intensity(intensity))
             green = int(rgb[1] * logarithmic_intensity(intensity))
             blue =  int(rgb[2] * logarathmic_intensity(intensity))
-            print red
-            print green
-            print blue
+            print(red)
+            print(green)
+            print(blue)
             colorWipeFast(strip, Color(green, red, blue))
         elif t == 0:
             colorWipeFast(strip, Color(0, 0, 0))
